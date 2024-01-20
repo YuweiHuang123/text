@@ -15,8 +15,8 @@ data_articles = pd.read_csv("articles.CDKN2A.csv")
 
 data_authors = pd.read_csv("authors.CDKN2A.csv")
 
-data_counts_q = pd.read_csv("paper_counts.csv")
+data_counts_q_a = pd.read_csv("paper_counts.csv")
 
 #print(data_articles)
 
-data_counts_q.plot()
+data_counts_q_a.plot()
